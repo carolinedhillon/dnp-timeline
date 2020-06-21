@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dnp-lib-timeline"
+    }
+  },
+  "defaultProject": "dnp-lib-timeline",
+  "cli": {
+    "analytics": false
+  }
 }

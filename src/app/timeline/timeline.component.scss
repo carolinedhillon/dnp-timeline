@@ -1,0 +1,60 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+.data-overview{
+    height: 75vh;
+    text-align: center;
+}
+
+::ng-deep svg{
+    background: rgba(240,240,240,0.1);
+}
+
+::ng-deep .swinlane{
+    fill: none;
+    stroke: none;
+}
+
+
+::ng-deep .x-axis{
+    stroke: #999;
+    fill: #999;
+    shape-rendering:crispEdges;
+}
+
+::ng-deep .x-axis text{
+    fill: #999;
+    stroke: #999;
+    stroke-width: 0;
+}
+
+::ng-deep .x-axis path,
+::ng-deep .x-axis line{
+    fill: #ddd;
+    stroke: #ddd;
+    stroke-width: 1px;
+}
+
+::ng-deep{
+    .swinlane-bar{ fill: #2b7a78;}
+    .swinlane-icon{ font-size: 1.5rem; fill: #2b7a78; }
+    .swinlane-text{ 
+        stroke: #999;
+        fill:  #999;
+        text-transform: uppercase;
+        stroke-width: 0;
+        font-size: 0.75rem;
+        text-anchor: end;
+    }
+    .swinlane-separator{ stroke: #ddd; stroke-width: 1px; }
+    .bar-text{ 
+        font-size: 0.8rem; 
+        text-transform: capitalize;    
+        font-size: 0.75rem;
+        stroke-width: 0;
+        // fill: #2b7a78;
+        fill: #fff;}
+
+    .bar-icon{
+        fill: #2b7a78;
+    }
+}
