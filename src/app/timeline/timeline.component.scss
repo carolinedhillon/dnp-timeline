@@ -35,7 +35,10 @@
 }
 
 ::ng-deep{
-    .swinlane-bar{ fill: #2b7a78;}
+    .swinlane-bar{ 
+        // fill: #2b7a78;
+        fill: #bfd7d7;
+    }
     .swinlane-icon{ font-size: 1.5rem; fill: #2b7a78; }
     .swinlane-text{ 
         stroke: #999;
@@ -47,14 +50,19 @@
     }
     .swinlane-separator{ stroke: #ddd; stroke-width: 1px; }
     .bar-text{ 
-        font-size: 0.8rem; 
-        text-transform: capitalize;    
+        font-size: 1rem; 
+        // text-transform: capitalize;    
         font-size: 0.75rem;
         stroke-width: 0;
-        // fill: #2b7a78;
-        fill: #fff;}
+        fill: #2b7a78;
+        // fill: #bfd7d7;
+        // fill: #000;
+    }
 
     .bar-icon{
         fill: #2b7a78;
+        font-size: 1rem;
+        // fill: #bfd7d7;
+        // fill: #000;
     }
 }
